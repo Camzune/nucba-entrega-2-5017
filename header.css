@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: "Nunito Sans";
+}
+
+body > header {
+    height: 3rem;
+    background-color: var(--nav-bg);
+    display: flex;
+    padding: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.icon {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.icon img{
+    height: 40px;
+    margin-right: 15px;
+}
+
+.nombre-navbar {
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--text-white);
+  }
+
+
+  body > header > nav > a {
+    text-decoration: none;
+    color: var(--text-white);
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 15px;
+ }
+  
